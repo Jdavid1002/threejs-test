@@ -1,0 +1,22 @@
+.Navbar {
+  width: calc(100% - 50px);
+  height: 50px;
+  top: 0px;
+  left: 50px;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid white;
+  color: white; }
+  .Navbar .Navbar-container_links {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+    padding: 0px 30px; }
+    .Navbar .Navbar-container_links .links {
+      color: white;
+      text-decoration: none;
+      cursor: pointer;
+      pointer-events: all; }
